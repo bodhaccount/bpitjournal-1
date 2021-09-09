@@ -705,11 +705,11 @@ text-shadow: 5px 5px black;
     font-weight: bold;
 
   }
-  .aimtext3 ,.papercalltext,.adboardtext
-  {
+  .aimtext3 ,.papercalltext  {
     padding-top: 4rem;
     font-size:18px;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
+    
   }
 
   .papercalltext2
@@ -719,6 +719,52 @@ text-shadow: 5px 5px black;
     justify-content: center;
     text-align: center;
   }
+
+  .emailbodh
+  {
+    text-align: center;
+    justify-content: center;
+  }
+  .adboardtext
+{
+  padding-top: 16rem;
+  font-size:18px;
+  padding-bottom: 5rem;
+  margin: 0;
+  justify-content: center;
+  text-align: left;
+}
+.adboardtext2
+{
+  font-size: 15px;
+
+  
+}
+.adboardtext4
+{
+  list-style-type: none;
+  /* text-align: center; */
+  padding-left: 9rem;
+  
+  
+}
+
+  .adboardul
+  {
+    list-style-type: disc;
+  }
+
+.aimtitle2
+{
+  color: black;
+    text-align: center;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-left: 4rem;
+    display: flex;
+    font-weight: bold;
+}
+
 
 
 
