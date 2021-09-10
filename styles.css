@@ -789,6 +789,16 @@ text-shadow: 5px 5px black;
   font-size: 1.25rem;
   
 }
+@media screen and (max-width:640px){
+  .para{
+      padding-left: 20px;
+      padding-right: 19px;
+  }
+  .aimtitle
+  {
+    padding-left: 5rem;
+  }
+  }
 
 
 
