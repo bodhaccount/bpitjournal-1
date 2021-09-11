@@ -720,6 +720,7 @@ text-shadow: 5px 5px black;
     padding-top: 4rem;
     font-size:18px;
     padding-bottom: 5rem;
+    display: flexbox;
     
   }
   
@@ -794,10 +795,54 @@ text-shadow: 5px 5px black;
       padding-left: 20px;
       padding-right: 19px;
   }
+  .aimtext3
+  {
+    padding-left: 20px;
+    padding-right: 19px;
+  }
+  .aimtext7
+  {
+    padding-left: 20px;
+    padding-right: 19px;
+  }
+  .papercalltext
+  {
+    padding-left: 20px;
+    padding-right: 19px;
+  }
   .aimtitle
   {
     padding-left: 5rem;
   }
+  .adboardtext4
+  {
+    padding-left: 20px;
+    padding-right: 19px;
+  }
+  .aimtitle6
+  {
+    padding-left: 121px;
+    padding-top: 10rem;
+  }
+  .papercalltitle
+  {
+    padding-left: 1rem;
+  }
+  .template
+  {
+    margin-right: 12rem;
+  }
+.btn 
+{
+  margin-top: 2rem;
+  margin-right: 100rem;
+
+}
+.reviewtext
+{
+  padding-left: 20px;
+    
+}
   }
 
 
