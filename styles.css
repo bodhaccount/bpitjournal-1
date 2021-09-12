@@ -239,7 +239,7 @@ nav .content .links{
     max-height: 0px;
     overflow: hidden;
   }
-  .content .links #show-feature:checked ~ ul,
+  .content .links #show-author:checked ~ ul,
   .content .links #show-services:checked ~ ul,
   .content .links #show-paper:checked ~ ul,
   .content .links #show-items:checked ~ ul{
