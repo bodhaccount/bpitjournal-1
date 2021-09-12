@@ -239,11 +239,16 @@ nav .content .links{
     max-height: 0px;
     overflow: hidden;
   }
-  .content .links #show-author:checked ~ ul,
+  /* .content .links #show-feature:checked ~ ul, */
   .content .links #show-services:checked ~ ul,
   .content .links #show-paper:checked ~ ul,
   .content .links #show-items:checked ~ ul{
     max-height: 100vh;
+  }
+
+  .content .links #show-author:checked ~ ul 
+  {
+max-height: 90vh;
   }
   .content .links ul li{
     margin: 7px 20px;
