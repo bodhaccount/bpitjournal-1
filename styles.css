@@ -841,6 +841,7 @@ text-shadow: 5px 5px black;
   {
     padding-left: 20px;
     padding-right: 19px;
+    /* margin-bottom: rem; */
   }
   .papercalltext
   {
@@ -869,10 +870,10 @@ text-shadow: 5px 5px black;
   {
     margin-right: 12rem;
   }
-.btn 
+.element.style
 {
-  margin-top: 2rem;
-  margin-right: 100rem;
+  margin-top: 2rem !important;
+  margin-right: 150rem !important;
 
 }
 .reviewtext
@@ -890,9 +891,16 @@ text-shadow: 5px 5px black;
   padding-left: 20px;
   padding-right: 19px;
 }
+.papercalltext
+{
+  padding-left: 20px !important;
+  padding-right: 19px !important;
+}
 
 
   }
+
+  
 
 
 
