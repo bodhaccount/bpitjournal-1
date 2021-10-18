@@ -18,87 +18,104 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body>
     
 
     <!-- Navbar -->
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
+    <nav id="navbar_top"class="navbar navbar-expand-lg navbar-light bg-light itsnavbar py-lg-3">
+      <div class="container-fluid ">
+        <div class="itsBPITimage">
+          <a class="navbar-brand" href="#">   <img  width="150px"   class="logo" src="images/logo-websitebg.png" alt="BPIT"></a>
+       
         </div>
-  
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="  ml-4 collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+           
 
-        <div class="wrapper">
-            <nav>
-              <input type="checkbox" id="show-search">
-              <input type="checkbox" id="show-menu">
-              <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
-              <div class="content">
-              <!-- <div class="logo"><a href="#">CodingNepal</a></div> -->  
-              <img class="logo" src="images/logo-websitebg.png" alt="BPIT">
-              
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
 
-              <ul class="links">
-                  <li><a href="index.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Board
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="AdvisoryBoard.html">Advisory Board</a></li>
+                <li><a class="dropdown-item" href="EditorialBoard.html">Editorial Board</a></li>
+           
+              </ul>
+              <!-- <img  width="35px" height="35px" src="images/123r.png"> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AimScope.html">Aim & Scope</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Issues.html">Issues</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Authors
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="Manuscript.html">Submit Manuscript</a></li>
+                <li><a class="dropdown-item" href="Guidelines.html">Author Guidelines</a></li>
+           
+              </ul>
+              <!-- <img  width="35px" height="35px" src="images/123r.png"> -->
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Papers
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="PaperCall.html">Call for paper</a></li>
+                <li><a class="dropdown-item" href="PaperTemplate.html">Paper template</a></li>
+           
+              </ul>
+              <!-- <img  width="35px" height="35px" src="images/123r.png"> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Policy.html">Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="FAQ.html">FAQ's</a>
+            </li>
 
-                  <li>
-                    <a href="#" class="desktop-link">Board</a>
-                    <input type="checkbox" id="show-features">
-                    <label for="show-features">Board</label>
-                    <ul>
-                      <li><a href="AdvisoryBoard.html">Advisory Board</a></li>
-                      <li><a href="EditorialBoard.html">Editorial Board</a></li>
-                    </ul>
-                  </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Peer Review
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="PeerReview.html">Peer Review Process</a></li>
+                <li><a class="dropdown-item" href="Reviewer.html">Join as Reviewer</a></li>
+           
+              </ul>
+              <!-- <img  width="35px" height="35px" src="images/123r.png"> -->
+            </li>
+            <li class="ml-2 nav-item">
+              <a class="nav-link" href="Contact.html">Contact Us</a>
+            </li>
 
-                  <!-- <li><a href="#">Advisory Board</a></li>
-                  <li><a href="#">Editorial Board</a></li> -->
-                  <li><a href="AimScope.html">Aim & Scope</a></li>
-                  <li><a href="Issues.html">Issues</a></li>
-                  <li>
-                    <a href="#" class="desktop-link">Authors</a>
-                    <input type="checkbox" id="show-feature">
-                    <label for="show-feature">Authors</label>
-                    <ul>
-                      <li><a href="Manuscript.html">Submit Manuscript</a></li>
-                      <li><a href="Guidelines.html">Author Guidelines</a></li>
-                    </ul>
-                  </li>
+          
+          
+            
 
-
-
-                   <li>
-                    <a href="#" class="desktop-link">Papers</a>
-                    <input type="checkbox" id="show-paper">
-                    <label for="show-paper">Papers</label>
-                    <ul>
-                      <li><a href="PaperCall.html">Call for paper</a></li>
-                      <li><a href="PaperTemplate.html">Paper template</a></li>
-                    </ul>
-                  </li> 
-
-                  <li><a href="Policy.html">Policy</a></li>
-                  <li><a href="FAQ.html">FAQ's</a></li>
-
-
-
-
-                  <li>
-                    <a href="#" class="desktop-link">Peer Review</a>
-                    <input type="checkbox" id="show-services">
-                    <label for="show-services">Peer Review</label>
-                    <ul>
-                      <li><a href="PeerReview.html">Peer Review Process</a></li>
-                      <li><a href="Reviewer.html">Join as Reviewer</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="Contact.html">Contact Us</a></li>
-                </ul>
-                
-              </div>
-             
-            </nav>
-          </div>
+          </ul>
+          
+        </div>
+        <div>
+          <img  width="80px" height="70px" src="images/123r.png">
+        </div>
+        <!-- <img  width="35px" height="35px" src="images/123r.png"> -->
+      </div>
+    </nav>
 
 
             <!-- GuideLines Starts -->
@@ -290,10 +307,13 @@ In addition to the manuscript cover letter should be included.
           <br>
           <br>
           <p>© Copyright 2021 BBIJTM , All Rights Reserved</p>
+          <p > Made by <a class="namePTag" href="https://www.linkedin.com/in/pushan-verma-559260176/">Pushan Verma</a> and <a class="namePTag" href="https://www.linkedin.com/in/sumant-sharma-850b7b177/">Sumant Sharma</a></p>
+          
       </div>
   </footer>
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> 
 
     <script src="index.js"></script>
 </body>
