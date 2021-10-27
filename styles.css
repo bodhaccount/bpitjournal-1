@@ -1136,6 +1136,9 @@ nav .content .links{
   line-height: 30px;
   border-radius: 0px!important;
 }
+para{
+  width: 80vw;
+}
 .content .links ul ul{
   position: absolute;
   top: 0;
@@ -1296,8 +1299,14 @@ nav .content .links{
 	filter: brightness(90%);
 }
 
-
-
+p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.itsAUL{
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 .home{
   color: brown;
@@ -1315,6 +1324,9 @@ nav .content .links{
   display: flexbox;
   justify-content: center;
   align-items: center;
+}
+para{
+  width: 80vw;
 }
 .text-3
 {
@@ -1392,10 +1404,14 @@ text-shadow: 5px 5px black;
 .aim
 {
   display: flexbox;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .aimlogo
 {
   padding-left: 100px;
+  text-align: justify;
+  text-justify: inter-word;
   font-size: 2rem;
   font-weight: 800;
   text-align: center;
@@ -1411,6 +1427,8 @@ text-shadow: 5px 5px black;
   height: 90vh;
   width: 100%;
   display: flexbox;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 
@@ -1425,6 +1443,8 @@ text-shadow: 5px 5px black;
     padding-left: 70px;
     display: flexbox;
     margin-left: 20px;
+    text-align: justify;
+  text-justify: inter-word;
 }
 /* .aim .text1
 {
@@ -1504,7 +1524,9 @@ text-shadow: 5px 5px black;
   background-size: cover;
   background-repeat: no-repeat;
 } */
-
+para{
+  width: 80vw;
+}
 .box
   {
       width: 400px;
@@ -1700,10 +1722,12 @@ text-shadow: 5px 5px black;
     color: black;
     text-align: center;
     justify-content: center;
-    padding-top: 8rem;
+    padding: 3rem;
     margin: 0 auto;
     display: flex;
     font-weight: bold;
+    text-align: justify;
+  text-justify: inter-word;
 
   }
   .aimtext3 ,.papercalltext  {
@@ -1711,10 +1735,14 @@ text-shadow: 5px 5px black;
     font-size:18px;
     padding-bottom: 5rem;
     display: flexbox;
-    text-align: center;
+  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
   }
   
-
+para{
+  width: 80vw;
+}
   /* .papercalltext2
   {
     font-size:18px;
@@ -1761,10 +1789,12 @@ text-shadow: 5px 5px black;
   color: black;
     text-align: center;
     justify-content: center;
-    padding-top: 8rem;
+    padding-top: 1rem;
       margin: 0 auto;
     display: flex;
     font-weight: bold;
+    text-align: justify;
+  text-justify: inter-word;
 }
 
 .reviewtext 
@@ -1773,10 +1803,12 @@ text-shadow: 5px 5px black;
 }
 .aimtext7
 {
-  padding-top: 6rem;
+  padding-top: 2rem;
   text-align: left;
   justify-content: flex-start;
   font-size: 1.25rem;
+  text-align: justify;
+  text-justify: inter-word;
   
 }
 
@@ -1788,6 +1820,8 @@ text-shadow: 5px 5px black;
   .para{
       padding-left: 20px;
       padding-right: 19px;
+      text-align: justify;
+  text-justify: inter-word;
   }
   .abouttext
   {
@@ -1827,6 +1861,8 @@ text-shadow: 5px 5px black;
   {
     padding-left: 20px;
     padding-right: 19px;
+    text-align: justify;
+  text-justify: inter-word;
     /* margin-bottom: rem; */
   }
   .papercalltext
@@ -1837,6 +1873,8 @@ text-shadow: 5px 5px black;
   .aimtitle
   {
    margin: 0 auto;
+   text-align: justify;
+  text-justify: inter-word;
   }
   .adboardtext4
   {
