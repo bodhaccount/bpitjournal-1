@@ -16,7 +16,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .wrapper{
-    background-image: linear-gradient(to right, #9d82ad 0%, #7e82ba 100%);
+     background-image: linear-gradient(to right, #9d82ad 0%, #7e82ba 100%);
   /* background: #171c24; */
   position: fixed;
   width: 100%;
