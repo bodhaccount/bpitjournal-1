@@ -1,3 +1,17 @@
+.itsnavbar{
+  /* height: 100px; */
+  background:linear-gradient(to right, #9d82ad 0%, #7e82ba 100%);
+}
+.container-fluid{
+  display: flex;
+  justify-content: space-around;
+}
+.namePTag{
+  text-decoration: none; 
+}
+.namePTag:hover{
+  text-decoration: none; 
+}
 *
 {
     margin: 0;
