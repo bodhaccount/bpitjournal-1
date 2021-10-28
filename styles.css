@@ -10,7 +10,7 @@
   text-decoration: none; 
 }
 .namePTag:hover{
-  text-decoration: none; 
+   text-decoration: none; 
 }
 *
 {
@@ -30,7 +30,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .wrapper{
-     background-image: linear-gradient(to right, #9d82ad 0%, #7e82ba 100%);
+    /* background-image: linear-gradient(to right, #9d82ad 0%, #7e82ba 100%); */
   /* background: #171c24; */
   position: fixed;
   width: 100%;
@@ -136,9 +136,6 @@ nav .content .links{
 }
 .search-box input::placeholder{
   color: #f2f2f2;
-}
-.navbar{
-	 background-image: linear-gradient(to right, #9d82ad 0%, #7e82ba 100%);
 }
 .search-box .go-icon{
   position: absolute;
@@ -434,6 +431,8 @@ text-shadow: 5px 5px black;
   padding-right: 100px ;
   font-size: 18px;
   padding-bottom: 100px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .abouttext12 
 {
@@ -445,6 +444,8 @@ text-shadow: 5px 5px black;
   padding-right: 100px ;
   font-size: 18px;
   padding-bottom: 100px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .aim
 {
@@ -504,6 +505,8 @@ text-shadow: 5px 5px black;
     justify-content: center;
     text-align: center;
     display: flexbox;
+    text-align: justify;
+    text-justify: inter-word;
 } 
 .objective 
 {
@@ -533,6 +536,8 @@ text-shadow: 5px 5px black;
   padding-right: 100px ;
   font-size: 18px;
   padding-bottom: 100px;
+  text-align: justify;
+    text-justify: inter-word;
 }
 /* .aimtitle6{
   margin: 0 auto;
@@ -575,7 +580,7 @@ para{
 .box
   {
       width: 400px;
-      height: 250px;
+      height: 300px;
       background:rgba(255, 254, 253, 0);
       /* margin:  20px; */
       box-sizing: border-box;
@@ -656,7 +661,10 @@ para{
   }
   .projtext2
   {
-      text-align: center;
+      /* text-align: center; */
+      text-align: justify;
+      text-justify: inter-word;
+      padding: 15px;
   }
 
 
@@ -710,6 +718,7 @@ para{
     float: left;
     opacity: 1;
     transition: 1s;
+    padding: 10px;
 
 }
 /* .text:hover
@@ -767,7 +776,7 @@ para{
     color: black;
     text-align: center;
     justify-content: center;
-    padding: 3rem;
+    padding: 2rem;
     margin: 0 auto;
     display: flex;
     font-weight: bold;
@@ -776,7 +785,7 @@ para{
 
   }
   .aimtext3 ,.papercalltext  {
-    padding-top: 4rem;
+    padding-top: 2rem;
     font-size:18px;
     padding-bottom: 5rem;
     display: flexbox;
@@ -875,6 +884,8 @@ para{
     padding-right: 19px;
     font-size: 16px;
     margin-bottom: 130rem !important;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .objectivetext
   {
@@ -882,7 +893,8 @@ para{
     justify-content: left;
     padding-left: 20px;
     padding-right: 19px;
-
+    text-align: justify;
+    text-justify: inter-word;
   }
   .pic2
   {
@@ -955,6 +967,8 @@ para{
 {
   padding-left: 20px;
   padding-right: 19px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .papercalltext
 {
@@ -964,3 +978,22 @@ para{
 
 
   }
+
+  
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
