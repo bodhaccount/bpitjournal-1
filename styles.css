@@ -929,6 +929,7 @@ text-shadow: 5px 5px black;
   padding-left: 20px;
     
 }
+<<<<<<< Updated upstream
 
 .mainlogo
 {
@@ -970,6 +971,8 @@ text-shadow: 5px 5px black;
 
 
 */
+=======
+>>>>>>> Stashed changes
 *
 {
     margin: 0;
@@ -1722,7 +1725,11 @@ para{
     color: black;
     text-align: center;
     justify-content: center;
+<<<<<<< Updated upstream
     padding: 3rem;
+=======
+    padding: 2rem;
+>>>>>>> Stashed changes
     margin: 0 auto;
     display: flex;
     font-weight: bold;
@@ -1731,7 +1738,7 @@ para{
 
   }
   .aimtext3 ,.papercalltext  {
-    padding-top: 4rem;
+    padding-top: 2rem;
     font-size:18px;
     padding-bottom: 5rem;
     display: flexbox;
@@ -1910,6 +1917,11 @@ para{
 {
   padding-left: 20px;
   padding-right: 19px;
+}
+.papercalltext
+{
+  padding-left: 20px !important;
+  padding-right: 19px !important;
 }
 .papercalltext
 {
