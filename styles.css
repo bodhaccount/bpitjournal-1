@@ -557,7 +557,7 @@ text-shadow: 5px 5px black;
       box-sizing: border-box;
       /* padding-bottom: 2rem; */
       position: relative;
-      float: left;
+      /* float: left; */
       transition: 1s;
       overflow: hidden;
       border-radius: 10px;
