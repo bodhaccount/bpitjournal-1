@@ -559,13 +559,13 @@ text-shadow: 5px 5px black;
 }
 .guide
 {
-    padding: 10% 0% 5% 0%;
+    /* padding: 10% 0% 5% 0%; */
     text-align: center;
     background-color: #9d82ad;
-    height: 70vh;
+    height: 80vh;
     z-index: 1;
     color:black;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
 }
 /* .guide 
 {
@@ -664,7 +664,7 @@ para{
       /* text-align: center; */
       text-align: justify;
       text-justify: inter-word;
-      padding: 15px;
+      padding: 5px;
   }
 
 
